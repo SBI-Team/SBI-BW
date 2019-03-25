@@ -19,7 +19,7 @@ read -p "Password : " pw
 if [ $pw = ShaDoW ]
 then
 sleep 1
-echo -e "$b[$g+$b]$g Terima kasih telah menggunakan tools SBI-BDW"
+echo -e "$b[$g+$b]$g Terima kasih telah menggunakan tools SBI-BW"
 exit
 else
 echo -e "$a[$g!$a]$g Password salah"
