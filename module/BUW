@@ -1,0 +1,467 @@
+#!/bin/bash
+clear
+a='\033[31;1m'
+b='\033[32;1m'
+c='\033[33;1m'
+d='\033[34;1m'
+e='\033[35;1m'
+f='\033[36;1m'
+g='\033[37;1m'
+
+echo -e "$b"
+cat buw.txt
+sleep 0.5
+echo -e "$g"
+read -p " Target: " tg
+read -p " Alamat file : " almt
+read -p " Count Script : " jml
+
+if [ $jml = 01 ] || [ $jml = 1 ]
+then
+read -p " Nama file ke-1 : " nm1
+echo -e " $b[$g#$b]$g Processing..."
+curl -T  $almt/$nm1 $tg
+echo -e " $b[$g+$b]$g Done..."
+echo -e " $b[\033[37;1m01$b]$g Cek : $tg/$nm1"
+fi
+
+if [ $jml = 02 ] || [ $jml = 2 ]
+then
+read -p " Nama file ke-1 : " nm1
+read -p " Nama file ke-2 : " nm2
+echo -e " $b[$g#$b]$g Processing..."
+curl -T  $almt/$nm1 $tg
+curl -T  $almt/$nm2 $tg
+echo -e " $b[$g+$b]$g Done..."
+echo -e " $b[\033[37;1m01$b]$g Cek : $tg/$nm1"
+echo -e " $b[\033[37;1m02$b]$g Cek : $tg/$nm2"
+fi
+
+if [ $jml = 03 ] || [ $jml = 3 ]
+then
+read -p " Nama file ke-1 : " nm1
+read -p " Nama file ke-2 : " nm2
+read -p " Nama file ke-3 : " nm3
+echo -e " $b[$g#$b]$g Processing..."
+curl -T  $almt/$nm1 $tg
+curl -T  $almt/$nm2 $tg
+curl -T  $almt/$nm3 $tg
+echo -e " $b[$g+$b]$g Done..."
+echo -e " $b[\033[37;1m01$b]$g Cek : $tg/$nm1"
+echo -e " $b[\033[37;1m02$b]$g Cek : $tg/$nm2"
+echo -e " $b[\033[37;1m03$b]$g Cek : $tg/$nm3"
+fi
+
+if [ $jml = 04 ] || [ $jml = 4 ]
+then
+read -p " Nama file ke-1 : " nm1
+read -p " Nama file ke-2 : " nm2
+read -p " Nama file ke-3 : " nm3
+read -p " Nama file ke-4 : " nm4
+echo -e " $b[$g#$b]$g Processing..."
+curl -T  $almt/$nm1 $tg
+curl -T  $almt/$nm2 $tg
+curl -T  $almt/$nm3 $tg
+curl -T  $almt/$nm4 $tg
+echo -e " $b[$g+$b]$g Done..."
+echo -e " $b[\033[37;1m01$b]$g Cek : $tg/$nm1"
+echo -e " $b[\033[37;1m02$b]$g Cek : $tg/$nm2"
+echo -e " $b[\033[37;1m03$b]$g Cek : $tg/$nm3"
+echo -e " $b[\033[37;1m04$b]$g Cek : $tg/$nm4"
+fi
+
+if [ $jml = 05 ] || [ $jml = 5 ]
+then
+read -p " Nama file ke-1 : " nm1
+read -p " Nama file ke-2 : " nm2
+read -p " Nama file ke-3 : " nm3
+read -p " Nama file ke-4 : " nm4
+read -p " Nama file ke-5 : " nm5
+echo -e " $b[$g#$b]$g Processing..."
+curl -T  $almt/$nm1 $tg
+curl -T  $almt/$nm2 $tg
+curl -T  $almt/$nm3 $tg
+curl -T  $almt/$nm4 $tg
+curl -T  $almt/$nm5 $tg
+echo -e " $b[$g+$b]$g Done..."
+echo -e " $b[\033[37;1m01$b]$g Cek : $tg/$nm1"
+echo -e " $b[\033[37;1m02$b]$g Cek : $tg/$nm2"
+echo -e " $b[\033[37;1m03$b]$g Cek : $tg/$nm3"
+echo -e " $b[\033[37;1m04$b]$g Cek : $tg/$nm4"
+echo -e " $b[\033[37;1m05$b]$g Cek : $tg/$nm5"
+fi
+
+if [ $jml = 06 ] || [ $jml = 6 ]
+then
+read -p " Nama file ke-1 : " nm1
+read -p " Nama file ke-2 : " nm2
+read -p " Nama file ke-3 : " nm3
+read -p " Nama file ke-4 : " nm4
+read -p " Nama file ke-5 : " nm5
+read -p " Nama file ke-6 : " nm6
+echo -e " $b[$g#$b]$g Processing..."
+curl -T  $almt/$nm1 $tg
+curl -T  $almt/$nm2 $tg
+curl -T  $almt/$nm3 $tg
+curl -T  $almt/$nm4 $tg
+curl -T  $almt/$nm5 $tg
+curl -T  $almt/$nm6 $tg
+echo -e " $b[$g+$b]$g Done..."
+echo -e " $b[\033[37;1m01$b]$g Cek : $tg/$nm1"
+echo -e " $b[\033[37;1m02$b]$g Cek : $tg/$nm2"
+echo -e " $b[\033[37;1m03$b]$g Cek : $tg/$nm3"
+echo -e " $b[\033[37;1m04$b]$g Cek : $tg/$nm4"
+echo -e " $b[\033[37;1m05$b]$g Cek : $tg/$nm5"
+echo -e " $b[\033[37;1m06$b]$g Cek : $tg/$nm6"
+fi
+
+if [ $jml = 07 ] || [ $jml = 7 ]
+then
+read -p " Nama file ke-1 : " nm1
+read -p " Nama file ke-2 : " nm2
+read -p " Nama file ke-3 : " nm3
+read -p " Nama file ke-4 : " nm4
+read -p " Nama file ke-5 : " nm5
+read -p " Nama file ke-6 : " nm6
+read -p " Nama file ke-7 : " nm7
+echo -e " $b[$g#$b]$g Processing..."
+curl -T  $almt/$nm1 $tg
+curl -T  $almt/$nm2 $tg
+curl -T  $almt/$nm3 $tg
+curl -T  $almt/$nm4 $tg
+curl -T  $almt/$nm5 $tg
+curl -T  $almt/$nm6 $tg
+curl -T  $almt/$nm7 $tg
+echo -e " $b[$g+$b]$g Done..."
+echo -e " $b[\033[37;1m01$b]$g Cek : $tg/$nm1"
+echo -e " $b[\033[37;1m02$b]$g Cek : $tg/$nm2"
+echo -e " $b[\033[37;1m03$b]$g Cek : $tg/$nm3"
+echo -e " $b[\033[37;1m04$b]$g Cek : $tg/$nm4"
+echo -e " $b[\033[37;1m05$b]$g Cek : $tg/$nm5"
+echo -e " $b[\033[37;1m06$b]$g Cek : $tg/$nm6"
+echo -e " $b[\033[37;1m07$b]$g Cek : $tg/$nm7"
+fi
+
+if [ $jml = 08 ] || [ $jml = 8 ]
+then
+read -p " Nama file ke-1 : " nm1
+read -p " Nama file ke-2 : " nm2
+read -p " Nama file ke-3 : " nm3
+read -p " Nama file ke-4 : " nm4
+read -p " Nama file ke-5 : " nm5
+read -p " Nama file ke-6 : " nm6
+read -p " Nama file ke-7 : " nm7
+read -p " Nama file ke-8 : " nm8
+echo -e " $b[$g#$b]$g Processing..."
+curl -T  $almt/$nm1 $tg
+curl -T  $almt/$nm2 $tg
+curl -T  $almt/$nm3 $tg
+curl -T  $almt/$nm4 $tg
+curl -T  $almt/$nm5 $tg
+curl -T  $almt/$nm6 $tg
+curl -T  $almt/$nm7 $tg
+curl -T  $almt/$nm8 $tg
+echo -e " $b[$g+$b]$g Done..."
+echo -e " $b[\033[37;1m01$b]$g Cek : $tg/$nm1"
+echo -e " $b[\033[37;1m02$b]$g Cek : $tg/$nm2"
+echo -e " $b[\033[37;1m03$b]$g Cek : $tg/$nm3"
+echo -e " $b[\033[37;1m04$b]$g Cek : $tg/$nm4"
+echo -e " $b[\033[37;1m05$b]$g Cek : $tg/$nm5"
+echo -e " $b[\033[37;1m06$b]$g Cek : $tg/$nm6"
+echo -e " $b[\033[37;1m07$b]$g Cek : $tg/$nm7"
+echo -e " $b[\033[37;1m08$b]$g Cek : $tg/$nm8"
+fi
+
+if [ $jml = 09 ] || [ $jml = 9 ]
+then
+read -p " Nama file ke-1 : " nm1
+read -p " Nama file ke-2 : " nm2
+read -p " Nama file ke-3 : " nm3
+read -p " Nama file ke-4 : " nm4
+read -p " Nama file ke-5 : " nm5
+read -p " Nama file ke-6 : " nm6
+read -p " Nama file ke-7 : " nm7
+read -p " Nama file ke-8 : " nm8
+read -p " Nama file ke-9 : " nm9
+echo -e " $b[$g#$b]$g Processing..."
+curl -T  $almt/$nm1 $tg
+curl -T  $almt/$nm2 $tg
+curl -T  $almt/$nm3 $tg
+curl -T  $almt/$nm4 $tg
+curl -T  $almt/$nm5 $tg
+curl -T  $almt/$nm6 $tg
+curl -T  $almt/$nm7 $tg
+curl -T  $almt/$nm8 $tg
+curl -T  $almt/$nm9 $tg
+echo -e " $b[$g+$b]$g Done..."
+echo -e " $b[\033[37;1m01$b]$g Cek : $tg/$nm1"
+echo -e " $b[\033[37;1m02$b]$g Cek : $tg/$nm2"
+echo -e " $b[\033[37;1m03$b]$g Cek : $tg/$nm3"
+echo -e " $b[\033[37;1m04$b]$g Cek : $tg/$nm4"
+echo -e " $b[\033[37;1m05$b]$g Cek : $tg/$nm5"
+echo -e " $b[\033[37;1m06$b]$g Cek : $tg/$nm6"
+echo -e " $b[\033[37;1m07$b]$g Cek : $tg/$nm7"
+echo -e " $b[\033[37;1m08$b]$g Cek : $tg/$nm8"
+echo -e " $b[\033[37;1m09$b]$g Cek : $tg/$nm9"
+fi
+
+if [ $jml = 10 ]
+then
+read -p " Nama file ke-1 : " nm1
+read -p " Nama file ke-2 : " nm2
+read -p " Nama file ke-3 : " nm3
+read -p " Nama file ke-4 : " nm4
+read -p " Nama file ke-5 : " nm5
+read -p " Nama file ke-6 : " nm6
+read -p " Nama file ke-7 : " nm7
+read -p " Nama file ke-8 : " nm8
+read -p " Nama file ke-9 : " nm9
+read -p " Nama file ke-10 : " nm10
+echo -e " $b[$g#$b]$g Processing..."
+curl -T  $almt/$nm1 $tg
+curl -T  $almt/$nm2 $tg
+curl -T  $almt/$nm3 $tg
+curl -T  $almt/$nm4 $tg
+curl -T  $almt/$nm5 $tg
+curl -T  $almt/$nm6 $tg
+curl -T  $almt/$nm7 $tg
+curl -T  $almt/$nm8 $tg
+curl -T  $almt/$nm9 $tg
+curl -T  $almt/$nm10 $tg
+echo -e " $b[$g+$b]$g Done..."
+echo -e " $b[\033[37;1m01$b]$g Cek : $tg/$nm1"
+echo -e " $b[\033[37;1m02$b]$g Cek : $tg/$nm2"
+echo -e " $b[\033[37;1m03$b]$g Cek : $tg/$nm3"
+echo -e " $b[\033[37;1m04$b]$g Cek : $tg/$nm4"
+echo -e " $b[\033[37;1m05$b]$g Cek : $tg/$nm5"
+echo -e " $b[\033[37;1m06$b]$g Cek : $tg/$nm6"
+echo -e " $b[\033[37;1m07$b]$g Cek : $tg/$nm7"
+echo -e " $b[\033[37;1m08$b]$g Cek : $tg/$nm8"
+echo -e " $b[\033[37;1m09$b]$g Cek : $tg/$nm9"
+echo -e " $b[\033[37;1m010$b]$g Cek : $tg/$nm10"
+fi
+
+if [ $jml = 11 ]
+then
+read -p " Nama file ke-1 : " nm1
+read -p " Nama file ke-2 : " nm2
+read -p " Nama file ke-3 : " nm3
+read -p " Nama file ke-4 : " nm4
+read -p " Nama file ke-5 : " nm5
+read -p " Nama file ke-6 : " nm6
+read -p " Nama file ke-7 : " nm7
+read -p " Nama file ke-8 : " nm8
+read -p " Nama file ke-9 : " nm9
+read -p " Nama file ke-10 : " nm10
+read -p " Nama file ke-11 : " nm11
+echo -e " $b[$g#$b]$g Processing..."
+curl -T  $almt/$nm1 $tg
+curl -T  $almt/$nm2 $tg
+curl -T  $almt/$nm3 $tg
+curl -T  $almt/$nm4 $tg
+curl -T  $almt/$nm5 $tg
+curl -T  $almt/$nm6 $tg
+curl -T  $almt/$nm7 $tg
+curl -T  $almt/$nm8 $tg
+curl -T  $almt/$nm9 $tg
+curl -T  $almt/$nm10 $tg
+curl -T  $almt/$nm11 $tg
+echo -e " $b[$g+$b]$g Done..."
+echo -e " $b[\033[37;1m01$b]$g Cek : $tg/$nm1"
+echo -e " $b[\033[37;1m02$b]$g Cek : $tg/$nm2"
+echo -e " $b[\033[37;1m03$b]$g Cek : $tg/$nm3"
+echo -e " $b[\033[37;1m04$b]$g Cek : $tg/$nm4"
+echo -e " $b[\033[37;1m05$b]$g Cek : $tg/$nm5"
+echo -e " $b[\033[37;1m06$b]$g Cek : $tg/$nm6"
+echo -e " $b[\033[37;1m07$b]$g Cek : $tg/$nm7"
+echo -e " $b[\033[37;1m08$b]$g Cek : $tg/$nm8"
+echo -e " $b[\033[37;1m09$b]$g Cek : $tg/$nm9"
+echo -e " $b[\033[37;1m010$b]$g Cek : $tg/$nm10"
+echo -e " $b[\033[37;1m011$b]$g Cek : $tg/$nm11"
+fi
+
+if [ $jml = 12 ]
+then
+read -p " Nama file ke-1 : " nm1
+read -p " Nama file ke-2 : " nm2
+read -p " Nama file ke-3 : " nm3
+read -p " Nama file ke-4 : " nm4
+read -p " Nama file ke-5 : " nm5
+read -p " Nama file ke-6 : " nm6
+read -p " Nama file ke-7 : " nm7
+read -p " Nama file ke-8 : " nm8
+read -p " Nama file ke-9 : " nm9
+read -p " Nama file ke-10 : " nm10
+read -p " Nama file ke-11 : " nm11
+read -p " Nama file ke-12 : " nm12
+echo -e " $b[$g#$b]$g Processing..."
+curl -T  $almt/$nm1 $tg
+curl -T  $almt/$nm2 $tg
+curl -T  $almt/$nm3 $tg
+curl -T  $almt/$nm4 $tg
+curl -T  $almt/$nm5 $tg
+curl -T  $almt/$nm6 $tg
+curl -T  $almt/$nm7 $tg
+curl -T  $almt/$nm8 $tg
+curl -T  $almt/$nm9 $tg
+curl -T  $almt/$nm10 $tg
+curl -T  $almt/$nm11 $tg
+curl -T  $almt/$nm12 $tg
+echo -e " $b[$g+$b]$g Done..."
+echo -e " $b[\033[37;1m01$b]$g Cek : $tg/$nm1"
+echo -e " $b[\033[37;1m02$b]$g Cek : $tg/$nm2"
+echo -e " $b[\033[37;1m03$b]$g Cek : $tg/$nm3"
+echo -e " $b[\033[37;1m04$b]$g Cek : $tg/$nm4"
+echo -e " $b[\033[37;1m05$b]$g Cek : $tg/$nm5"
+echo -e " $b[\033[37;1m06$b]$g Cek : $tg/$nm6"
+echo -e " $b[\033[37;1m07$b]$g Cek : $tg/$nm7"
+echo -e " $b[\033[37;1m08$b]$g Cek : $tg/$nm8"
+echo -e " $b[\033[37;1m09$b]$g Cek : $tg/$nm9"
+echo -e " $b[\033[37;1m010$b]$g Cek : $tg/$nm10"
+echo -e " $b[\033[37;1m011$b]$g Cek : $tg/$nm11"
+echo -e " $b[\033[37;1m012$b]$g Cek : $tg/$nm12"
+fi
+
+if [ $jml = 13 ]
+then
+read -p " Nama file ke-1 : " nm1
+read -p " Nama file ke-2 : " nm2
+read -p " Nama file ke-3 : " nm3
+read -p " Nama file ke-4 : " nm4
+read -p " Nama file ke-5 : " nm5
+read -p " Nama file ke-6 : " nm6
+read -p " Nama file ke-7 : " nm7
+read -p " Nama file ke-8 : " nm8
+read -p " Nama file ke-9 : " nm9
+read -p " Nama file ke-10 : " nm10
+read -p " Nama file ke-11 : " nm11
+read -p " Nama file ke-12 : " nm12
+read -p " Nama file ke-13 : " nm13
+echo -e " $b[$g#$b]$g Processing..."
+curl -T  $almt/$nm1 $tg
+curl -T  $almt/$nm2 $tg
+curl -T  $almt/$nm3 $tg
+curl -T  $almt/$nm4 $tg
+curl -T  $almt/$nm5 $tg
+curl -T  $almt/$nm6 $tg
+curl -T  $almt/$nm7 $tg
+curl -T  $almt/$nm8 $tg
+curl -T  $almt/$nm9 $tg
+curl -T  $almt/$nm10 $tg
+curl -T  $almt/$nm11 $tg
+curl -T  $almt/$nm12 $tg
+curl -T  $almt/$nm13 $tg
+echo -e " $b[$g+$b]$g Done..."
+echo -e " $b[\033[37;1m01$b]$g Cek : $tg/$nm1"
+echo -e " $b[\033[37;1m02$b]$g Cek : $tg/$nm2"
+echo -e " $b[\033[37;1m03$b]$g Cek : $tg/$nm3"
+echo -e " $b[\033[37;1m04$b]$g Cek : $tg/$nm4"
+echo -e " $b[\033[37;1m05$b]$g Cek : $tg/$nm5"
+echo -e " $b[\033[37;1m06$b]$g Cek : $tg/$nm6"
+echo -e " $b[\033[37;1m07$b]$g Cek : $tg/$nm7"
+echo -e " $b[\033[37;1m08$b]$g Cek : $tg/$nm8"
+echo -e " $b[\033[37;1m09$b]$g Cek : $tg/$nm9"
+echo -e " $b[\033[37;1m010$b]$g Cek : $tg/$nm10"
+echo -e " $b[\033[37;1m011$b]$g Cek : $tg/$nm11"
+echo -e " $b[\033[37;1m012$b]$g Cek : $tg/$nm12"
+echo -e " $b[\033[37;1m013$b]$g Cek : $tg/$nm13"
+fi
+
+if [ $jml = 14 ]
+then
+read -p " Nama file ke-1 : " nm1
+read -p " Nama file ke-2 : " nm2
+read -p " Nama file ke-3 : " nm3
+read -p " Nama file ke-4 : " nm4
+read -p " Nama file ke-5 : " nm5
+read -p " Nama file ke-6 : " nm6
+read -p " Nama file ke-7 : " nm7
+read -p " Nama file ke-8 : " nm8
+read -p " Nama file ke-9 : " nm9
+read -p " Nama file ke-10 : " nm10
+read -p " Nama file ke-11 : " nm11
+read -p " Nama file ke-12 : " nm12
+read -p " Nama file ke-13 : " nm13
+read -p " Nama file ke-14 : " nm14
+echo -e " $b[$g#$b]$g Processing..."
+curl -T  $almt/$nm1 $tg
+curl -T  $almt/$nm2 $tg
+curl -T  $almt/$nm3 $tg
+curl -T  $almt/$nm4 $tg
+curl -T  $almt/$nm5 $tg
+curl -T  $almt/$nm6 $tg
+curl -T  $almt/$nm7 $tg
+curl -T  $almt/$nm8 $tg
+curl -T  $almt/$nm9 $tg
+curl -T  $almt/$nm10 $tg
+curl -T  $almt/$nm11 $tg
+curl -T  $almt/$nm12 $tg
+curl -T  $almt/$nm13 $tg
+curl -T  $almt/$nm14 $tg
+echo -e " $b[$g+$b]$g Done..."
+echo -e " $b[\033[37;1m01$b]$g Cek : $tg/$nm1"
+echo -e " $b[\033[37;1m02$b]$g Cek : $tg/$nm2"
+echo -e " $b[\033[37;1m03$b]$g Cek : $tg/$nm3"
+echo -e " $b[\033[37;1m04$b]$g Cek : $tg/$nm4"
+echo -e " $b[\033[37;1m05$b]$g Cek : $tg/$nm5"
+echo -e " $b[\033[37;1m06$b]$g Cek : $tg/$nm6"
+echo -e " $b[\033[37;1m07$b]$g Cek : $tg/$nm7"
+echo -e " $b[\033[37;1m08$b]$g Cek : $tg/$nm8"
+echo -e " $b[\033[37;1m09$b]$g Cek : $tg/$nm9"
+echo -e " $b[\033[37;1m010$b]$g Cek : $tg/$nm10"
+echo -e " $b[\033[37;1m011$b]$g Cek : $tg/$nm11"
+echo -e " $b[\033[37;1m012$b]$g Cek : $tg/$nm12"
+echo -e " $b[\033[37;1m013$b]$g Cek : $tg/$nm13"
+echo -e " $b[\033[37;1m014$b]$g Cek : $tg/$nm14"
+fi
+
+if [ $jml = 15 ]
+then
+read -p " Nama file ke-1 : " nm1
+read -p " Nama file ke-2 : " nm2
+read -p " Nama file ke-3 : " nm3
+read -p " Nama file ke-4 : " nm4
+read -p " Nama file ke-5 : " nm5
+read -p " Nama file ke-6 : " nm6
+read -p " Nama file ke-7 : " nm7
+read -p " Nama file ke-8 : " nm8
+read -p " Nama file ke-9 : " nm9
+read -p " Nama file ke-10 : " nm10
+read -p " Nama file ke-11 : " nm11
+read -p " Nama file ke-12 : " nm12
+read -p " Nama file ke-13 : " nm13
+read -p " Nama file ke-14 : " nm14
+read -p " Nama file ke-15 : " nm15
+echo -e " $b[$g#$b]$g Processing..."
+curl -T  $almt/$nm1 $tg
+curl -T  $almt/$nm2 $tg
+curl -T  $almt/$nm3 $tg
+curl -T  $almt/$nm4 $tg
+curl -T  $almt/$nm5 $tg
+curl -T  $almt/$nm6 $tg
+curl -T  $almt/$nm7 $tg
+curl -T  $almt/$nm8 $tg
+curl -T  $almt/$nm9 $tg
+curl -T  $almt/$nm10 $tg
+curl -T  $almt/$nm11 $tg
+curl -T  $almt/$nm12 $tg
+curl -T  $almt/$nm13 $tg
+curl -T  $almt/$nm14 $tg
+curl -T  $almt/$nm15 $tg
+echo -e " $b[$g+$b]$g Done..."
+echo -e " $b[\033[37;1m01$b]$g Cek : $tg/$nm1"
+echo -e " $b[\033[37;1m02$b]$g Cek : $tg/$nm2"
+echo -e " $b[\033[37;1m03$b]$g Cek : $tg/$nm3"
+echo -e " $b[\033[37;1m04$b]$g Cek : $tg/$nm4"
+echo -e " $b[\033[37;1m05$b]$g Cek : $tg/$nm5"
+echo -e " $b[\033[37;1m06$b]$g Cek : $tg/$nm6"
+echo -e " $b[\033[37;1m07$b]$g Cek : $tg/$nm7"
+echo -e " $b[\033[37;1m08$b]$g Cek : $tg/$nm8"
+echo -e " $b[\033[37;1m09$b]$g Cek : $tg/$nm9"
+echo -e " $b[\033[37;1m010$b]$g Cek : $tg/$nm10"
+echo -e " $b[\033[37;1m011$b]$g Cek : $tg/$nm11"
+echo -e " $b[\033[37;1m012$b]$g Cek : $tg/$nm12"
+echo -e " $b[\033[37;1m013$b]$g Cek : $tg/$nm13"
+echo -e " $b[\033[37;1m014$b]$g Cek : $tg/$nm14"
+echo -e " $b[\033[37;1m015$b]$g Cek : $tg/$nm15"
+fi
