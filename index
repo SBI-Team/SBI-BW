@@ -34,7 +34,7 @@ done
 fi
 }
 
-echo -e "$b Author :$g <[SBI_01]"
+echo -e "$b Author :$g ᗛ[SBI_B4n9Z4tt3r5]"
 echo -e "$b Tools  :$g Brute Webdav"
 echo -e "$b Team   :$g ShaDoW BlooD InDoNeSiA$g"
 sleep 0.7
@@ -136,7 +136,7 @@ fi
 
 if [ $pilih = 04 ] || [ $pilih = 4 ]
 then
-echo -e "$b Author   :$g <[SBI_01]"
+echo -e "$b Author   :$g ᗛ[SBI_B4n9Z4tt3r5]"
 sleep 0.5
 echo -e "$b Name     :$g SBI-BW"
 sleep 0.5
